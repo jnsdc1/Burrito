@@ -4,6 +4,7 @@
             <?php
             $mealType = $_POST["MealType"];
             $beans = $_POST["Beans"];
+            $rice = $_POST["Rice"];
             $protein = $_POST["Protein"];
 
             if ($mealType == "Burrito"){
