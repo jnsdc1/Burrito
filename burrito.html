@@ -8,51 +8,59 @@
             <div class="container">
                 <div class="section">
                     <h3> Meal Type </h3>
-                    <input type="radio" name="MealType" value="Burrito"> Burrito </br>
-                    <input type="radio" name="MealType" value="Bowl"> Bowl </br>
-                    <input type="radio" name="MealType" value="Taco"> Taco </br>
+                    <input type="radio" name="MealType" value="Burrito"> Burrito $10.25 <br>
+                    <input type="radio" name="MealType" value="Bowl"> Bowl $10.50 <br>
+                    <input type="radio" name="MealType" value="Taco"> Taco $8.75 <br>
                 </div>
 
                 <div class="section">
                     <h3> Rice </h3>
-                    <input type="radio" name="Rice" value="White"> White Rice </br>
-                    <input type="radio" name="Rice" value="Brown"> Brown Rice </br>
-                    <input type="radio" name="Rice" value="Half"> Half White Half Brown </br>
-                    <input type="checkbox" name="Rice" value="Extra"> Extra Rice </br>
+                    <input type="radio" name="Rice" value="White"> White Rice <br>
+                    <input type="radio" name="Rice" value="Brown"> Brown Rice <br>
+                    <input type="radio" name="Rice" value="Half"> Half White Half Brown <br>
+                    <input type="checkbox" name="ExtraRice" value="Extra"> Extra Rice <br>
                 </div>
 
                 <div class="section">
                     <h3> Beans</h3>
-                    <input type="radio" name="Bean" value="Black"> Black Beans </br>
-                    <input type="radio" name="Bean" value="Pinto"> Pinto beans </br>
-                    <input type="radio" name="Bean" value="None"> No Beans </br>
-                    <input type="checkbox" name="Bean" value="Extra"> Extra Beans </br>
+                    <input type="radio" name="Bean" value="Black"> Black Beans <br>
+                    <input type="radio" name="Bean" value="Pinto"> Pinto beans <br>
+                    <input type="radio" name="Bean" value="None"> No Beans <br>
+                    <input type="checkbox" name="ExtraBean" value="Extra"> Extra Beans <br>
                 </div>
 
                 <div class="section"> 
                     <h3> Protein </h3>
-                    <input type="radio" name="Protein" value="Chicken"> Chicken </br>
-                    <input type="radio" name="Protein" value="Beef"> Ground Beef </br> 
-                    <input type="checkbox" name="xProtein" value="extra"> Extra Protein </br>
+                    <input type="radio" name="Protein" value="Chicken"> Chicken <br>
+                    <input type="radio" name="Protein" value="Beef"> Ground Beef <br> 
+                    <input type="checkbox" name="xProtein" value="ExtraProtein"> Extra Protein $4.00<br>
                 </div>
 
                 <div class="section">
                     <h3> Toppings </h3>
-                    <input type="checkbox" name="Topping" value="Cheese"> Cheese </br>
-                    <input type="checkbox" name="Topping" value="Salsa"> Salsa </br>
-                    <input type="checkbox" name="Topping" value="SourCream"> Sour Cream </br>
-                    <input type="checkbox" name="Topping" value="Corn"> Corn </br>
-                    <input type="checkbox" name="Topping" value="Lettuce"> Lettuce </br>
-                    <input type="checkbox" name="Topping" value="FajitaVeggies"> Fajita Veggies </br>
-                    <input type="checkbox" name="Topping" value="Queso"> Queso </br>
-                    <input type="checkbox" name="Topping" value="Guac"> Guacamole </br>
+                    <input type="checkbox" name="Topping[]" value="Cheese"> Cheese <br>
+                    <input type="checkbox" name="Topping[]" value="Salsa"> Salsa <br>
+                    <input type="checkbox" name="Topping[]" value="SourCream"> Sour Cream <br>
+                    <input type="checkbox" name="Topping[]" value="Corn"> Corn <br>
+                    <input type="checkbox" name="Topping[]" value="Lettuce"> Lettuce <br>
+                    <input type="checkbox" name="Topping[]" value="FajitaVeggies"> Fajita Veggies <br>
+                    <input type="checkbox" name="Topping[]" value="Queso"> Queso $2.00<br>
+                    <input type="checkbox" name="Topping[]" value="Guac"> Guacamole $2.00<br>
                 </div>
 
             </div>
         <div id="submit">
             <br>
             Name: <input type="text" name="Name">
-            Pick up Time: <input type="text" name="Time">
+            <br>
+            Pick up Time: 
+            <select name="Time">
+                <option value="12:00 PM"> 12:00 PM</option>
+                <option value="12:30 PM"> 12:30 PM</option>
+                <option value="1:00 PM"> 1:00 PM</option>
+                <option value="1:30 PM"> 1:30 PM</option>
+                <option value="2:00 PM"> 2:00 PM</option>
+            </select>
             <input type="submit">
         </div>
 
