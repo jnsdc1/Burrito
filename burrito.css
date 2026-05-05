@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("burrito.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+form {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section {
+    background-color:peachpuff;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    width: 220px;
+    padding: 15px;
+}
+
+.section h3 {
+    text-align: center;
+    color: crimson;
+    border-bottom: 1px solid crimson;
+    padding-bottom: 8px;
+}
+
+input {
+    margin: 6px;
+}
+
+#submit {
+    background-color: peachpuff;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#submit input[type="text"],
+#submit select {
+    padding: 6px;
+    margin: 8px;
+    font-size: 16px;
+}
+
+#submit input[type="submit"] {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+#submit input[type="submit"]:hover {
+    background-color: brown;
+}
